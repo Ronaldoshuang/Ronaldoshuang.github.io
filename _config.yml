@@ -4,9 +4,9 @@
 baseurl:
 url: https://mazhuang.org
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
+title: 爽哥
+subtitle: "努力的意义，就是，在以后的日子里，放眼望去全是自己喜欢的人和事！"
+description: "爽哥的个人博客"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -15,11 +15,11 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Qing Shuang
 organization: zkh360.com
 organization_url: http://www.zkh360.com
 github_username: mzlogin
-location: Wuhan, China
+location: ChengDu, China
 email: chumpma@gmail.com
 
 # ---------------- #

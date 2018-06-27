@@ -1,18 +1,14 @@
----
+﻿---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 努力的意义，就是，在以后的日子里，放眼望去全是自己喜欢的人和事！
+keywords: 爽哥
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
-
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+努力的意义，就是，在以后的日子里，放眼望去全是自己喜欢的人和事！
 
 ## 联系
 
