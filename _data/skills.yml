@@ -10,7 +10,6 @@
       - Zookeeper/Dubbo
       - strom/Solr
       - Nginx
-      - Design Patterns
 
 - name: Football Fan
   keywords:
