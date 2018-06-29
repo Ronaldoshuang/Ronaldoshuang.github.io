@@ -1,6 +1,6 @@
 ---
 layout: post
-title: java关键字---synchronized
+title: synchronized
 categories: JavaConcurrency
 description: JavaConcurrency
 keywords: JavaConcurrency
