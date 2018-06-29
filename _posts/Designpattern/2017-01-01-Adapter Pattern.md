@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
 title: 适配器模式
-categories: Design pattern
+categories: Designpattern
 description: 适配器模式
 keywords: java, 适配器模式
 ---
