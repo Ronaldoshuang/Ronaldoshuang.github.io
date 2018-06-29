@@ -68,8 +68,8 @@ keywords: JavaConcurrency
 # 2. 线程状态转换 #
 
 
-![线程状态转换图](![](/images/posts/JavaConcurrency/JavaConcurrency-2-2.png))
 
+![线程状态转换图]({{ "/images/posts/JavaConcurrency/JavaConcurrency-2-2.png" | absolute_url }})
 
 
 此图来源于《JAVA并发编程的艺术》一书中，线程是会在不同的状态间进行转换的，java线程线程转换图如上图所示。线程创建之后调用start()方法开始运行，当调用wait(),join(),LockSupport.lock()方法线程会进入到**WAITING**状态，而同样的wait(long timeout)，sleep(long),join(long),LockSupport.parkNanos(),LockSupport.parkUtil()增加了超时等待的功能，也就是调用这些方法后线程会进入**TIMED_WAITING**状态，当超时等待时间到达后，线程会切换到Runable的状态，另外当WAITING和TIMED _WAITING状态时可以通过Object.notify(),Object.notifyAll()方法使线程转换到Runable状态。当线程出现资源竞争时，即等待获取锁的时候，线程会进入到**BLOCKED**阻塞状态，当线程获取锁时，线程进入到Runable状态。线程运行结束后，线程进入到**TERMINATED**状态，状态转换可以说是线程的生命周期。另外需要注意的是：
@@ -78,7 +78,9 @@ keywords: JavaConcurrency
 
 用一个表格将上面六种状态进行一个总结归纳。
 
-![JAVA线程的状态](![](/images/posts/JavaConcurrency/JavaConcurrency-2-3.png))
+
+![JAVA线程的状态]({{ "/images/posts/JavaConcurrency/JavaConcurrency-2-3.png" | absolute_url }})
+
 # 3. 线程状态的基本操作 #
 除了新建一个线程外，线程在生命周期内还有需要基本操作，而这些操作会成为线程间一种通信方式，比如使用中断（interrupted）方式通知实现线程间的交互等等，下面就将具体说说这些操作。
 
@@ -88,8 +90,8 @@ keywords: JavaConcurrency
 isInterrupted（）来感知其他线程对其自身的中断操作，从而做出响应。另外，同样可以调用Thread的静态方法
 interrupted（）对当前线程进行中断操作，该方法会清除中断标志位。**需要注意的是，当抛出InterruptedException时候，会清除中断标志位，也就是说在调用isInterrupted会返回false。**
 
-![线程中断的方法](![](/images/posts/JavaConcurrency/JavaConcurrency-2-4.png))
 
+![线程中断的方法]({{ "/images/posts/JavaConcurrency/JavaConcurrency-2-4.png" | absolute_url }})
 
 
 
