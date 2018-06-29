@@ -1,19 +1,19 @@
 - name: Software Engineer Keywords
   keywords:
       - Java
-      - C++
-      - Python
-      - Design Patterns
+      - 数据结构
+      - JVM
+      - Linux
+      - Redis
+      - Oracle/MySQL/FastDFS
+      - ActiveMQ/RocketMQ 
+      - Zookeeper/Dubbo
+      - strom/Solr
+      - Nginx
 
-- name: Mobile Developer Keywords
+- name: Football Fan
   keywords:
-      - Android
-      - Reverse Engineering
+      - Real Madrid/FC Bayern Munich
+      - Cristiano Ronaldo/Thomas Müller
 
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+
