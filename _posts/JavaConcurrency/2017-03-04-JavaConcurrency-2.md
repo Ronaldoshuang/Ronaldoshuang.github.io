@@ -58,7 +58,8 @@ keywords: JavaConcurrency
 - 由于java不能多继承可以实现多个接口，因此，在创建线程的时候尽量多考虑采用实现接口的形式；
 - 实现callable接口，提交给ExecutorService返回的是异步执行的结果，另外，通常也可以利用FutureTask(Callable<V> callable)将callable进行包装然后FeatureTask提交给ExecutorsService。如图，
 
-![FutureTask接口实现关系](![](/images/posts/JavaConcurrency/JavaConcurrency-2-1.png))
+![FutureTask接口实现关系]({{ "/images/posts/JavaConcurrency/JavaConcurrency-2-1.png" | absolute_url }})
+
 
 
 另外由于FeatureTask也实现了Runable接口也可以利用上面第二种方式（实现Runable接口）来新建线程；
