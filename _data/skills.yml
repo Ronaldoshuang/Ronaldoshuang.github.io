@@ -3,16 +3,17 @@
       - Java
       - JVM
       - Linux
+      - Design Patterns
       - Redis
       - Oracle/MySQL/FastDFS
       - ActiveMQ/RocketMQ 
       - Zookeeper/Dubbo
       - strom/Solr
       - Nginx
+      - Python
+      - Design Patterns
 
 - name: Football Fan
   keywords:
       - Real Madrid/FC Bayern Munich
       - Cristiano Ronaldo/Thomas M¨¹ller
-
-
