@@ -8,7 +8,7 @@ title: 爽哥
 subtitle: "努力的意义，就是，在以后的日子里，放眼望去全是自己喜欢的人和事！"
 description: "爽哥的个人博客"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang
-timezone: Asia/Shanghai
+#timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
@@ -67,7 +67,7 @@ lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
-gems:
+plugins:
     - jekyll-github-metadata
     - rouge
 #     - jekyll-html-pipeline
