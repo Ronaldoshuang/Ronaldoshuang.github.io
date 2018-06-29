@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url:https://ronaldoshuang.github.io/
+url: https://ronaldoshuang.github.io/
 date_format: "ordinal"
 title: 爽哥
 subtitle: "努力的意义，就是，在以后的日子里，放眼望去全是自己喜欢的人和事！"
