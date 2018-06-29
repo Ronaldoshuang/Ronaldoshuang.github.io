@@ -10,7 +10,6 @@
       - Zookeeper/Dubbo
       - strom/Solr
       - Nginx
-      - Python
       - Design Patterns
 
 - name: Football Fan
