@@ -232,6 +232,7 @@ put方法源码为:
 	    } finally {
 	        putLock.unlock();
 	    }
+	     //如果队列中的元素从非满到满，通知消费者线程
 	    if (c == 0)
 	        signalNotEmpty();
 	}
@@ -258,6 +259,7 @@ put方法的逻辑也同样很容易理解，可见注释。基本上和ArrayBlo
 	    } finally {
 	        takeLock.unlock();
 	    }
+	     //如果队列中的元素从满到非满，通知生产者线程
 	    if (c == capacity)
 	        signalNotFull();
 	    return x;
