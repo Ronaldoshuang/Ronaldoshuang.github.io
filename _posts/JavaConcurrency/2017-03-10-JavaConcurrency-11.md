@@ -215,3 +215,5 @@ keywords: JavaConcurrency
 	      }
 	    }
 	}
+# 4.锁降级 #
+ writelocak.lock可以通过newCondition方法生成condition等待队列，而readlock无法生成condition等待队列
