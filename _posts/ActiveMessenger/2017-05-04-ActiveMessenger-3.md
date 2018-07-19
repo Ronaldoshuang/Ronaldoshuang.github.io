@@ -129,6 +129,7 @@ prefetch值建议在destinationUri中指定，因为在brokerUrl中指定比较�
     catch,这样可以在处理消息出错时记录一些信息，而不是让consumer不断去重发消息；如果你
     没有使用try-catch,就有可能会因为异常而导致消息重复接收的问题,需要注意你的onMessage
     方法中逻辑是否能够兼容对重复消息的判断。
+
 ![]({{ "/images/posts/ActiveMessenger/ActiveMessenger-3-3.jpg" | absolute_url }})
 
 
