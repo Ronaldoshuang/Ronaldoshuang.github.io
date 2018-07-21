@@ -6,6 +6,7 @@ description: 消息中间件
 keywords: java, 消息中间件，ActiveMQ
 ---
 
+
 # 1 JMS #
 
 在介绍ActiveMQ之前，首先简要介绍一下JMS规范。
