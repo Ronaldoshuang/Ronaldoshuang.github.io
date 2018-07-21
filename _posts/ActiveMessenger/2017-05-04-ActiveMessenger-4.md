@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: ActiveMQ中文参考手册解读
 categories: ActiveMessenger
